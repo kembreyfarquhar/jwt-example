@@ -1,0 +1,34 @@
+{
+  "name": "jwt-example",
+  "version": "1.0.0",
+  "description": "Repo using node.js with express to demonstrate using json web-tokens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmcknight1/jwt-example.git"
+  },
+  "author": "katie mcknight (kmcknight1)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmcknight1/jwt-example/issues"
+  },
+  "homepage": "https://github.com/kmcknight1/jwt-example#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.1",
+    "knex-cleaner": "^1.3.0",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
