@@ -4,7 +4,8 @@
   "description": "Repo using node.js with express to demonstrate using json web-tokens.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
